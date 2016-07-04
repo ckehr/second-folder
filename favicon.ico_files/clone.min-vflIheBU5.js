@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,r){"use strict";function t(e){if(null==e)throw new TypeError("Cannot clone null/undefined object");if(Array.isArray(e))return Array.prototype.slice.call(e);for(var r={},t=Object.getOwnPropertyNames(e),n=0;n<t.length;n++){var o=t[n];r[o]=Object.getOwnPropertyDescriptor(e,o)}return Object.create(Object.getPrototypeOf(e),r)}r.clone=t});
+//# sourceMappingURL=clone.min.js-vflZeL6Td.map
